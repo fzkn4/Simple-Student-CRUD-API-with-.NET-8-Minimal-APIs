@@ -1,6 +1,6 @@
-# 📚 Simple Student CRUD API with .NET 8 Minimal APIs
+# Simple CRUD API with .NET Minimal APIs
 
-Welcome to a beginner-friendly tutorial on building a **CRUD (Create, Read, Update, Delete)** API using **.NET 8 Minimal APIs**. This project focuses on clarity and simplicity, ideal for those new to web API development with .NET.
+Welcome to a beginner-friendly tutorial on building a **CRUD (Create, Read, Update, Delete)** API using **.NET 9 Minimal APIs**. This project focuses on clarity and simplicity, ideal for those new to web API development with .NET.
 
 ---
 
@@ -12,7 +12,7 @@ Follow the steps below to get the project running on your local machine.
 
 Make sure the following are installed:
 
-- **[.NET 8 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)**  
+- **.NET 9 SDK**  
   Includes the runtime and CLI tools.
 - **[Visual Studio Code](https://code.visualstudio.com/)**  
   A lightweight, extensible code editor.
@@ -27,11 +27,11 @@ Make sure the following are installed:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/fzkn4/Simple-Student-CRUD-API-with-.NET-8-Minimal-APIs.git
+   git clone https://github.com/fzkn4/simple-CRUD-API-with-.NET.git
    ```
 2. **Navigate to the Project folder**
    ```bash
-   cd simple-CRUD-API-with-.NET/MyMinimalApi
+   cd simple-CRUD-API-with-.NET/
    ```
 3. **Restore dependencies**
    ```bash
@@ -57,7 +57,8 @@ You'll see the running address in the terminal.
 ---
 
 ## 📡 API Endpoints
-This API exposes the following endpoints to manage student data:
+In this case, the API demonstrates managing student data through the following endpoints:
+
 **🧾 Student Record Structure**
 ```csharp
 internal record student(int edp, string name, int year, string course);
